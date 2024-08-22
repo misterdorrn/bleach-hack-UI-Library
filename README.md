@@ -7,7 +7,7 @@ local configSavingUI = game:GetObjects("rbxassetid://18187656247")[1]:Clone()
 configSavingUI.Parent = (gethui and gethui()) or game:GetService("CoreGui")
 configSavingUI.Enabled = false
 
-local tab1 = UI:CreateCategory("Main", "")
+local w1 = UI:CreateCategory("Main", "")
 
 local ws = w1:CreateToggle({
 	Title = "Walkspeed"
